@@ -1,0 +1,105 @@
+/*
+Author: Matt Pahuta
+https://www.mattpahuta.com
+Date: Aug 2024
+*/
+:root {
+  
+  /* Fonts */
+  --ff-primary: "Inter", sans-serif;
+  /* Font Sizes */
+  --fs-300: 14px;
+  --fs-400: 1rem;
+  --fs-500: 24px;
+  /* Colors */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray-700: hsl(0, 0%, 20%);
+  --clr-gray-800: hsl(0, 0%, 12%);
+  --clr-gray-900: hsl(0, 0%, 8%);
+  --clr-green: hsl(75, 94%, 57%);
+
+
+  /* Spacing */
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-500: 2.5rem;
+  /* Border radius */
+  --br-soft: 1rem; 
+  --br-round: 50%;
+  
+
+}
+
+/* RESET */
+/* Josh Comeau custom css reset */
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* BASE STYLES */
+body {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--ff-primary);
+
+  line-height: 1.5;  
+
+
+}
+
+h1 {
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+.card {
+  max-width: 28.5rem;
+  font-size: var(--fs-300);
+}
+
+.card-img {
+  width: 88px;
+  height: 88px;
+  aspect-ratio: 1;
+  border-radius: var(--br-round);
+}
+
+.card__link {
+  text-decoration: none;
+  width: 100%;
+}
