@@ -89,7 +89,8 @@ h1 {
 }
 
 .card {
-  max-width: 28.5rem;
+  /* max-width: 28.5rem; */
+  width: clamp(18rem, 88vw, 24rem);
   padding: var(--spacing-300);
   font-size: var(--fs-300);
   text-align: center;
@@ -103,6 +104,7 @@ h1 {
   width: 5.5rem;
   height: 5.5rem;
   aspect-ratio: 1;
+  object-fit: cover;
   border-radius: var(--br-round);
 }
 
@@ -125,19 +127,36 @@ h1 {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
 }
 
 .card__list-item {
 
-  background: var(--clr-gray-700);
-  border-radius: var(--spacing-100);
-
-  margin-bottom: 1rem;
+  
 }
 
 .card__link {
-  color: var(--clr-white);
+  width: 100%;
+  min-width: 10ch;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
+  text-align: center;
+  line-height: 1.1;
   text-decoration: none;
+  background: var(--clr-gray-700);
+  color: var(--clr-white);
+  border-radius: var(--spacing-100);
+  transition: 250ms all ease-in-out;
   cursor: pointer;
+}
+
+.card__link:hover,
+.card__link:focus-within {
+  background: var(--clr-green);
+  color: var(--clr-gray-700);
 }

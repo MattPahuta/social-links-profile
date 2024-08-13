@@ -44,18 +44,14 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
+I know the design comp has a wider width for the tablet-sized display presentation but I really did not like how this component looked at that size. Instead, I stuck with a simpler width calculation using `clamp()` to achieve my desired dimensions. 
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -77,7 +73,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS Button Styling Guide](https://moderncss.dev/css-button-styling-guide/) - Stephanie Eckles is often my go-to accessibility resource and this project was no different. I have this button and link styling guide bookmarked.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
