@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FEM solution page](https://www.frontendmentor.io/solutions/social-links-card-using-flexbox-XH-NVOq_1_)
+- Live Site URL: [live site on Vercel](https://blog-preview-card-homo.vercel.app/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I know the design comp has a wider width for the tablet-sized display presentation but I really did not like how this component looked at that size. Instead, I stuck with a simpler width calculation using `clamp()` to achieve my desired dimensions. The `clamp()` function came in handy for handling the card's padding shift from mobile to larger screens. With such a small project it's nice to avoid using a media query for small changes like these.
+I know the design comp has a wider width for the tablet-sized display presentation but I really did not like how this component looked at that size. Instead, I stuck with a simpler width calculation using `clamp()` to achieve my desired dimensions. The `clamp()` function also came in handy for handling the card's padding shift from mobile to larger screens. With such a small project it's nice to avoid using a media query for small changes like these.
 
 
 ```css
@@ -70,4 +70,3 @@ I know the design comp has a wider width for the tablet-sized display presentati
 - Frontend Mentor - [@mattpahuta](https://www.frontendmentor.io/profile/MattPahuta)
 - Twitter - [@mattpahuta](https://www.twitter.com/MattPahuta)
 - LinkedIn - [Matt Pahuta](www.linkedin.com/in/mattpahuta)
-
